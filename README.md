@@ -23,6 +23,19 @@ System operuje na zbiorze danych `plants_dataset.csv`, który zawiera:
 * **Matplotlib**: Wizualizacja interakcji między światem cyfrowym a fizycznym.
 * **Jupyter Notebook**: Środowisko eksperymentalne i dokumentacja procesu.
 
+## Setup środowiska
+Zainstaluj `uv` manager dla python'a na swojej maszynie. Np. za pomocą `brew` na MAC OS:
+
+```bash
+brew install uv
+```
+Następnie:
+```bash
+uv sync
+```
+
+Wybierz kernel w notebook'u i jesteś gotowy do pracy.
+
 ## Sposób użycia
 1. Załaduj plik `plants_dataset.csv`.
 2. Uruchom komórki Notebooka w celu przetworzenia i posortowania danych.
